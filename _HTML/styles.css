@@ -1,0 +1,84 @@
+body {
+    background-color: lightgrey;
+    /* background-image:url('https://goo.gl/NA1Fsd'); */
+}
+h1 {
+    color: blue;
+}
+hr {
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+p {
+    padding: 1px;
+    margin: 1px;
+}
+#p01 {
+    color: red;
+	text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+#p02 {
+    color: white;
+    background-color:rgb(0,0,0);
+    border:2px solid lightgrey; 
+    text-align:center;
+}
+blockquote {
+    padding: 1px;
+    text-align: center;
+    margin: 2px;
+    background-color:rgb(255,255,255);
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.btn {
+    border: 2px solid grey;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
